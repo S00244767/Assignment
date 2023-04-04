@@ -64,7 +64,7 @@ namespace AssignmentWPF
             string result = "Incorrect value entered";
             if (location != null && number != null)
             {
-                if (int.TryParse(number, out realNumber))
+                if (int.TryParse(number, out realNumber)) 
                 {
                     double res = CalcPremium(realNumber,location);
                     result = res.ToString();
